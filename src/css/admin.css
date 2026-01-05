@@ -1,0 +1,113 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background: url('c:\Users\kiran\AppData\Local\Microsoft\Windows\INetCache\IE\MBOV00F8\IMG-20241201-WA0055[1].jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 1100px;
+  height: 150px;
+  max-width: 1100px;
+  background-color: rgba(172, 172, 164, 0.65);
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(190, 185, 185, 0.933);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #13bfda;
+  margin-bottom: 30px;
+}
+
+legend {
+  font-size: 24px;
+  color: #28c4df;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 80%;
+  margin-bottom: 20px;
+  background-color:#28c4d(255, 255, 255, 0.650);
+  border-radius: 5px;
+}
+
+th {
+  font-size: 18px;
+  color: #12d0daf0;
+}
+
+td {
+  font-size: 16px;
+  color: #23e6dc;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 90%;
+  padding: 12px;
+  border: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #1cd8d5;
+  background-color: rgb(15, 195, 211);
+}
+
+input[type="submit"] {
+  width: 30%;
+  padding: 12px;
+  background-color: #d0cfc9ef;
+  color: #28bfe1;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #bebeb5ea;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"]:active {
+  transform: translateY(2px);
+}
+
+#Aday {
+  font-size: 18px;
+  color: #30bed7;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+.container {
+  /* ... */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto; /* Add this line to center the table horizontally */
+  margin-bottom: 20px;
+  background-color: rgba(182, 182, 174, 0.959);
+  border-radius: 5px;
+}
